@@ -1,7 +1,7 @@
 ### Distance calculation using Ultrasonic detection when a key on a keyboard is pressed
 More information can be found on pdf file.
 
-Addthe extractedd file to the catkin_ws file.
+Add the extracted file to the catkin_ws file.
 
 1. Execute keyboard library
 ------------
