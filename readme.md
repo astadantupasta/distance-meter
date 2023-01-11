@@ -1,7 +1,9 @@
 ### Distance calculation using Ultrasonic detection when a key on a keyboard is pressed
 More information can be found on pdf file.
 
-Add the extracted file to the catkin_ws file.
+ROS is used, thus has to be installed.
+
+Add the files to the catkin_ws\mmi_package file.
 
 1. Execute keyboard library
 ------------
