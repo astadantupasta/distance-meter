@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="keypressed" pkg="mmi_package" type="keypressed_node.py" output="screen" required="true">
+    </node>
+
+    <node pkg="rosserial_python" type="serial_node.py" respawn="false" name="arduino_comm" output="screen">
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="band" value="57600"/>
+    </node>
+
+    <node pkg="ros-keyboard-master" type="main.cpp" output="screen" required="true">
+    </node>
+
+<launch/>
